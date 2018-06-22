@@ -10,7 +10,7 @@ var bodyParser = require('body-parser');
 //deprecated in favor of a separate 'body-parser' module.
 app.use(bodyParser.urlencoded({ extended: true })); 
 
-var sequelize = new Sequelize('postgres://postgres:Fechal75@localhost/portfolio');
+var sequelize = new Sequelize('postgres://postgres:@localhost/portfolio');
 //var sequelize = new Sequelize('pos');
 var Review = sequelize.define('review',{
 	name: Sequelize.STRING,
