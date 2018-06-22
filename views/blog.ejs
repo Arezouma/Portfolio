@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title> My Interest</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body class="bg-success">
+	<div class="container">
+        	<div class="jumbotron">
+        		<div class="container">
+    				<h1 class="col-lg-1">Fruit</h1>
+    				<%- include('partials/header') %>
+    				
+  				</div>
+  			</div>
+  	</div>
+  	<br><br>
+  	
+  	<div class="container w">
+  		<h2>Importance of eating fruits and vegetables</h2>
+  		<br><br>
+
+	  	<div class="row centered">
+	  		
+			<div class="col-lg-4">
+				   <div class="thumbnail">
+				     <a href="https://media.gettyimages.com/photos/assortment-of-fruits-picture-id173255460">
+				       <img src="https://media.gettyimages.com/photos/assortment-of-fruits-picture-id173255460" alt="Lights">
+				        
+				     </a>
+				   </div>
+			</div>
+			<div class="col-lg-4">
+				   <div class="thumbnail">
+				     <a href="https://upload.wikimedia.org/wikipedia/commons/2/2f/Culinary_fruits_front_view.jpg">
+				       <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Culinary_fruits_front_view.jpg" alt="Nature">
+				        
+				     </a>
+				   </div>
+			</div>
+
+			<div class="col-lg-4">
+				   <div class="thumbnail">
+				     <a href="http://pngimagesfree.com/Fruit/Mix-fruit-png/fruit-basket_png_one.png">
+				       <img src="http://pngimagesfree.com/Fruit/Mix-fruit-png/fruit-basket_png_one.png" alt="Nature">
+				        
+				     </a>
+				   </div>
+			</div>
+		</div>
+	</div>
+	<br><br>
+	<hr>
+	<br><br>
+
+	<div class="container desc">
+		<div class="row">
+			<br><br>
+			<div class="col-lg-6 centered">
+				<img src="images/0.jpg" alt="">
+			</div><!-- col-lg-6 -->
+			<div class="col-lg-6">
+				<h4 class="text-warning">Advantage of Fruits and vegetables</h4>
+				<p class="font-weight-bold">Eating vegetables provides health benefits – people who eat more vegetables and fruits as part of an overall healthy diet are likely to have a reduced risk of some chronic diseases. Vegetables provide nutrients vital for health and maintenance of your body.</p>
+				<p class="font-weight-bold">Most vegetables are naturally low in fat and calories. None have cholesterol. (Sauces or seasonings may add fat, calories, and/or cholesterol). Vegetables are important sources of many nutrients, including potassium, dietary fiber, folate (folic acid), vitamin A, and vitamin C</p>
+							
+			</div>
+		</div><!-- row -->
+					
+		<br><br>
+		<hr>
+		<br><br>
+		<div class="row">
+			<div class="col-lg-6 centered">
+				<img src="images/1.jpg" alt="">
+			</div>
+							
+			<div class="col-lg-6">
+				<h4 class="text-warning">Health benefits</h4>
+				<p class="font-weight-bold">Eating a diet rich in vegetables and fruits as part of an overall healthy diet may reduce risk for heart disease, including heart attack, stroke, and the following.</p>
+				<p class="font-weight-bold">
+				<i class="fa-li fa fa-spinner fa-spin"></i> Feel incredible<br/>
+				<i class="fa-li fa fa-spinner fa-spin"></i> Weight Loss<br/>
+				<i class="fa-li fa fa-spinner fa-spin"></i> Prevent cancer<br/>
+				<i class="fa-li fa fa-spinner fa-spin"></i> Look half your age<br/>
+				<i class="fa-li fa fa-spinner fa-spin"></i> Boost your energy<br/>
+				<i class="fa-li fa fa-spinner fa-spin"></i> Fight obesity<br/>
+				<i class="fa-li fa fa-spinner fa-spin"></i> Keep your teeth<br/>
+				<i class="fa-li fa fa-spinner fa-spin"></i> Sleep better<br/>
+							
+				</p>
+							
+			</div>
+		</div><!-- row -->
+		<br><br>
+		<hr>
+		<br><br>
+		<div class="row">
+			<form id="form" action="/submit" method="POST">
+				<div class="form-group">
+					<label class="font-weight-bold" for="exampleInputEmail1">Name</label>
+					<input name="fname" type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter first and last name">
+						    
+				</div>
+				<div class="form-group">
+					<label class="font-weight-bold" for="exampleInputEmail1">Email Address</label>
+					<input name="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email address">
+						    
+				</div>
+				<div class="form-group">
+					<label class="font-weight-bold" for="exampleFormControlTextarea1">Comments</label>
+						<textarea name="comments" class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="write your comments"></textarea>
+				</div>
+				<div class="container">
+ 
+					<h4 class="text-warning">Would you visit again?</h4>
+							 
+						<label class="font-weight-bold" class="radio-inline">
+							 
+						<input type="radio" name="survey" id="Radios1" value="Yes">
+							 
+							Yes
+							 
+						</label>
+							 
+							<label class="font-weight-bold" class="radio-inline">
+							 
+							<input type="radio" name="survey" id="Radios2" value="No">
+							 
+							No
+							 
+							</label>
+							 
+					</div>
+					<button type="submit" class="btn btn-primary">Submit</button>
+				</form>
+				
+			</div>			
+
+					
+	</div><!-- container -->
+	<br><br>
+	<hr>
+	<br><br>
+	
+	
+<!--Add footer.ejs here-->
+	<%- include('partials/footer') %>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+
+	
+
+</body>
+</html>

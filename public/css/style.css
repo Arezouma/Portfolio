@@ -1,0 +1,154 @@
+
+.jumbotron{
+	margin-top: 10px;
+	background-color: grey!important;
+}
+.jumbotron h1{
+	color: dark;
+}
+
+.jumbotron ul {
+	font-size: 20px;
+	color: black;
+	background-color: black;
+
+}
+
+h2 {
+	text-align: center;
+
+}
+h4 {
+	/*background-color: yellow;*/
+	color: yellow;
+}
+
+#nav{
+    margin: 1%;
+}
+li{
+    display: inline;
+    padding: 1.5em 0;
+}
+#nav{
+	background-color: #efefef;
+    padding: 0.5em 0;
+}
+        
+
+img{
+	width: 300px;
+	height: 170px;
+}
+		
+.gradpics img { 
+	
+	float: left;	
+	padding: 0px 10px 10px 10px;
+}
+#feature .gradpics p {
+	display: inline;
+}
+		
+li{
+    
+    display: inline;
+    margin: 0px 30px;
+}
+
+.entry{
+	display: inline-block;
+    
+	width: 280px;
+	padding: 0 10px 0 10px;
+
+}
+h1{
+	color: blue;
+	text-align: center;
+	padding: 0.5em;
+}
+h2 {
+	
+}
+ #li{
+ 	float: left;
+ 	display: block;
+ }
+
+ #content {overflow: auto;}
+ #feature {margin: 1%;}
+ #feature, .article {
+ 	height: 10em;
+ 	margin-bottom: 1em;
+
+ }
+
+ .col, .col1, .col2 {
+ 	width: 31.3%;
+ 	float: left;
+ 	margin: 1%;
+ }
+ fieldset {
+ 	width: 350px;
+ 	height: 370px;
+ 	margin-top: 20px;
+ 	border: 1px solid #d6d6d6;
+ 	background-color: khaki;
+ 	line-height: 1.6em; 
+ }
+
+ legend {
+ 	font-style: italic;
+ 	color: #666666;
+ }
+
+ input[type="text"] {
+ 	width: 120px;
+ 	border: 1px solid #d6d6d6;
+ 	padding: 2px;
+ 	outline: none;
+ }
+
+ input[type="text"]:focus,
+ input[type="text"]:hover {
+ 	background-color: #d0e2f0;
+ 	border: 1px solid #999999;
+ }
+
+ input[type="submit"] {
+ 	border: 1px solid #006633;
+ 	background-color: #009966;
+ 	color: #ffffff;
+ 	border-radius: 5px;
+ 	padding: 5px;
+ 	margin-top: 10px;
+ }
+
+ input[type="submit"]:hover {
+ 	border: 1px solid #006633;
+ 	background-color: #00cc33;
+ 	color: #ffffff;
+ 	cursor: pointer;
+ }
+
+ .title {
+ 	float: left;
+ 	width: 160px;
+ 	clear: left;
+ }
+
+ .submit {
+ 	width: 310px;
+ 	text-align: right;
+ }
+
+
+
+
+        
+
+
+
+	
+	
